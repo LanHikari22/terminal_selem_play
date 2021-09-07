@@ -92,7 +92,7 @@ class AppDynamicsJob(unittest.TestCase):
 
 
 def print_usage():
-    print("\n\tusage: {} replay_file".format(sys.argv[0]))
+    print("usage: {} replay_file".format(sys.argv[0]))
 
 
 if __name__ == "__main__":
