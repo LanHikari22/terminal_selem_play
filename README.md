@@ -90,7 +90,7 @@ login to Terminal.
     <img src="images/demo.gif" alt="Demo" height="640">
   </a>
 
-  <h5 align="center">Demo running the selenium script to watch a replay</h3>
+  <h5 align="center">Demo running the selenium script to watch a replay. Click on it to enlarge.</h3>
 </p>
 
 <!-- CONTRIBUTING -->
