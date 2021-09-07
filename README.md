@@ -89,7 +89,7 @@ login to Terminal.
 ### Demo
 <p align="center">
   <a href="https://raw.githubusercontent.com/LanHikari22/terminal_selemium_replay/main/images/demo.gif">
-    <img src="images/demo.gif" alt="Demo" height="640">
+    <img src="images/demo.gif" alt="Demo" width="1024">
   </a>
 
   <h5 align="center">Demo running the selenium script to watch a replay. Click on it to enlarge.</h3>
