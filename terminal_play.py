@@ -29,7 +29,19 @@ class AppDynamicsJob(unittest.TestCase):
 
 
     def loadAuth(self) -> Tuple[str, str]:
-        with open(path.relpath('c1terminal.secret')) as authdata:
+        # find path in project directory or relative
+        secret_filename = 'c1terminal.secret'
+        secret_path = ''
+        if path.exists(path.relpath(secret_filename)):
+            secret_path = path.relpath(secret_filename)
+        elif path.exists(path.join(path.dirname(__file__), secret_filename)):
+            secret_path = path.join(path.dirname(__file__), secret_filename)
+        if secret_path == '':
+            print('error: could not find {} to fetch auth data from'.format(secret_filename))
+        else:
+            print('fetching auth data from {}'.format(secret_path))
+
+        with open(secret_path) as authdata:
             jdata = json.load(authdata)
             return (jdata['email'], jdata['password'])
 
@@ -78,10 +90,20 @@ class AppDynamicsJob(unittest.TestCase):
         # visit https://www.seleniumhq.org/docs/06_test_design_considerations.jsp#validating-results
         self.assertEqual([], self.verificationErrors)
 
+
+def print_usage():
+    print("\n\tusage: {} replay_file".format(sys.argv[0]))
+
+
 if __name__ == "__main__":
     global g_replay_file
-    assert len(sys.argv) == 2, "\n\tusage: {} replay_file".format(sys.argv[0])
-    g_replay_file = sys.argv[1]
-    sys.argv = sys.argv[:1]
+    if len(sys.argv) != 2:
+        print_usage()
+        exit(1)
+    g_replay_file = path.abspath(sys.argv[1])
+    if not path.exists(g_replay_file):
+        print('error: could not find {}'.format(g_replay_file))
+        exit(1)
 
+    sys.argv = sys.argv[:1]
     unittest.main()
