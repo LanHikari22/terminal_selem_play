@@ -86,7 +86,7 @@ login to Terminal.
 
 ### Demo
 <p align="center">
-  <a href="https://github.com/LanHikari22/terminal_selemium_replay">
+  <a href="https://raw.githubusercontent.com/LanHikari22/terminal_selemium_replay/main/images/demo.gif">
     <img src="images/demo.gif" alt="Demo" height="640">
   </a>
 
