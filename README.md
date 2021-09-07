@@ -19,7 +19,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/LanHikari22/terminal_selem_play">
     <img src="images/logo.png" alt="Logo" height="160">
   </a>
 
@@ -28,9 +28,9 @@
   <p align="center">
     uses selemium to automate opening a replay file in the C1 games terminal playground
     <br />
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/LanHikari22/terminal_selem_play/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/LanHikari22/terminal_selem_play/issues">Request Feature</a>
   </p>
 </p>
 
@@ -98,17 +98,6 @@ Contributions are what make the open source community such an amazing place to l
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Feel free to reach out to me!
-
-Lan - lanhikarixx@gmail.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
 
 <!-- ACKNOWLEDGEMENTS -->
