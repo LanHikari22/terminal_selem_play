@@ -47,7 +47,12 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li>
+      <a href="#usage">Usage</a>
+      <ul>
+        <li><a href="#demo">Demo</a></li>
+      </ul>
+    </li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
@@ -78,6 +83,15 @@ login to Terminal.
 ```py
   python3 terminal_replay.py "replay file"
 ```
+
+### Demo
+<p align="center">
+  <a href="https://github.com/LanHikari22/terminal_selemium_replay">
+    <img src="images/demo.gif" alt="Demo" height="640">
+  </a>
+
+  <h5 align="center">Demo running the selenium script to watch a replay</h3>
+</p>
 
 <!-- CONTRIBUTING -->
 ## Contributing
