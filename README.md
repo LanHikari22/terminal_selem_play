@@ -23,7 +23,7 @@
     <img src="images/logo.png" alt="Logo" height="160">
   </a>
 
-  <h3 align="center">Terminal: Play replay file in firefox</h3>
+  <h3 align="center">Terminal: Watch the replay file in firefox</h3>
 
   <p align="center">
     uses selemium to automate opening a replay file in the C1 games terminal playground
