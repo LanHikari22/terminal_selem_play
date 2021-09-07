@@ -28,6 +28,8 @@
   <p align="center">
     uses selemium to automate opening a replay file in the C1 games terminal playground
     <br />
+    <a href="https://raw.githubusercontent.com/LanHikari22/terminal_selemium_replay/main/images/demo.gif">View Demo</a>
+    ·
     <a href="https://github.com/LanHikari22/terminal_selemium_replay/issues">Report Bug</a>
     ·
     <a href="https://github.com/LanHikari22/terminal_selemium_replay/issues">Request Feature</a>
