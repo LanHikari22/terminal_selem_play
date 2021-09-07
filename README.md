@@ -77,7 +77,7 @@ Once the preequisite tools are installed, you should be able to simply run the p
 login to Terminal.
 - Next, run
 ```py
-    python3 terminal_play.py "replay file"
+  python3 terminal_replay.py "replay file"
 ```
 
 <!-- CONTRIBUTING -->
