@@ -19,7 +19,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/LanHikari22/terminal_selem_play">
+  <a href="https://github.com/LanHikari22/terminal_selemium_replay">
     <img src="images/logo.png" alt="Logo" height="160">
   </a>
 
@@ -28,9 +28,9 @@
   <p align="center">
     uses selemium to automate opening a replay file in the C1 games terminal playground
     <br />
-    <a href="https://github.com/LanHikari22/terminal_selem_play/issues">Report Bug</a>
+    <a href="https://github.com/LanHikari22/terminal_selemium_replay/issues">Report Bug</a>
     ·
-    <a href="https://github.com/LanHikari22/terminal_selem_play/issues">Request Feature</a>
+    <a href="https://github.com/LanHikari22/terminal_selemium_replay/issues">Request Feature</a>
   </p>
 </p>
 
@@ -62,7 +62,6 @@
 
 ### Prerequisites
 
-- You will need to have python3 and pip installed.
 - Install python3 and pip
 - Install [selenium with Firefox as the web driver](https://selenium-python.readthedocs.io/installation.html)
 
