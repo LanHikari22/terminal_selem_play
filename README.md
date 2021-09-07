@@ -26,7 +26,7 @@
   <h3 align="center">Terminal: Play replay file in firefox</h3>
 
   <p align="center">
-    uses selemium to automate opening a replay file in the terminal playground
+    uses selemium to automate opening a replay file in the C1 games terminal playground
     <br />
     <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
     ·
@@ -51,6 +51,7 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -109,6 +110,11 @@ Lan - lanhikarixx@gmail.com
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+
+- [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
